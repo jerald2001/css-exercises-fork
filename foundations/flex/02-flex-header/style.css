@@ -1,7 +1,7 @@
 .header {
   font-family: monospace;
   background: papayawhip;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   display: flex;
   padding: 8px;
@@ -12,8 +12,6 @@
   font-weight: 900;
   color: tomato;
   background: white;
-  padding: 4px 32px;
-  margin: auto;
 }
 
 ul {
@@ -21,7 +19,8 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0;
-  gap: 16px;
+  margin: 0;
+  gap: 8px;
 }
 
 a {
